@@ -1,0 +1,19 @@
+{
+  "name": "jest-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel": "^6.23.0",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3",
+    "jsonpath": "^1.1.1"
+  }
+}
