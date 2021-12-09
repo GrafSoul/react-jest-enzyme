@@ -1,12 +1,18 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React, { Component } from "react";
+import PersonList from "./PersonList";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>TDD - 13.16</h1>
-    </div>
-  );
+class App extends Component {
+  state = {
+    people: [],
+  };
+
+  render() {
+    return (
+      <div>
+        <PersonList people={this.state.people} />
+      </div>
+    );
+  }
 }
 
 export default App;
